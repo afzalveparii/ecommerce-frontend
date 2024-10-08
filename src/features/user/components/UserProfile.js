@@ -11,7 +11,7 @@ export default function UserProfile() {
   const [selectedEditIndex, setSelectedEditIndex] = useState(-1);
   const [showAddAddressForm, setShowAddAddressForm] = useState(false);
   const [openModal, setOpenModal] = useState(null);
-  const BACKEND_BASE_URL = 'http://localhost:8080';
+  const BACKEND_BASE_URL = 'https://ecommerce-backend-41il.onrender.com';
 
   const {
     register,

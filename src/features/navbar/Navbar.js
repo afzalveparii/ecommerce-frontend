@@ -30,7 +30,7 @@ function classNames(...classes) {
 function NavBar({ children }) {
   const items = useSelector(selectItems);
   const userInfo = useSelector(selectUserInfo);
-  const BACKEND_BASE_URL = 'http://localhost:8080';
+  const BACKEND_BASE_URL = 'https://ecommerce-backend-41il.onrender.com';
   return (
     <>
       {userInfo &&<div className="min-h-full">
