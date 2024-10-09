@@ -33,7 +33,7 @@ This project is an e-commerce platform that offers a wide range of products incl
 3. Set proxy variables 
    To configure the backend URL for API requests, you can set the proxy in the `package.json` file. If you need to change the backend URL address, update the `proxy` value in `ecommerce-frontend/package.json`:
    ```
-   "proxy": "http://localhost:8080" // Change this to your backend URL
+   "proxy": "http://localhost:8080" // Change this to your backend URL this is my backend url hosted on render "https://ecommerce-backend-41il.onrender.com"
    ```
 
 4. Start the development server
