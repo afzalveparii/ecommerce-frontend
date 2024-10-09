@@ -30,20 +30,15 @@ This project is an e-commerce platform that offers a wide range of products incl
    npm run install-all
    ```
 
-3. Set up environment variables
-   Create a `.env` file in the root directory and add the following:
+3. Set proxy variables 
+   To configure the backend URL for API requests, you can set the proxy in the `package.json` file. If you need to change the backend URL address, update the `proxy` value in `ecommerce-frontend/package.json`:
    ```
-   PORT=8080
-   DATABASE=your_mongodb_connection_string
-   JWT_SECRET_key=your_jwt_secret
-   STRIPE_API_KEY=you_stripe_API_Key
-   ENDPOINT_SECRET=yor_endpoint_secret_key
-   SESSION_KEY=your_session_key
+   "proxy": "http://localhost:8080" // Change this to your backend URL
    ```
 
 4. Start the development server
    ```
-   npm run dev
+   npm start
    ```
 
 ## Usage
