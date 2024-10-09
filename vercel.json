@@ -1,0 +1,20 @@
+{
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "installCommand": "npm install"
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://ecommerce-backend-41il.onrender.com/api/$1"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
